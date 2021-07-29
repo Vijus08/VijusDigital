@@ -1,0 +1,178 @@
+.navbar{
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.Banner{
+	margin-top: 60px;
+}
+
+.card-border{
+	background: #080424;
+	border: solid 10px #080424;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+	opacity: 0.7;
+}
+
+.card-border:hover{
+	transform: scale(1.05);
+}
+.card-inicio{
+	background: #080424;
+	border: solid 10px #080424;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+	opacity: 0.8;
+}
+
+.card-inicio:hover{
+	transform: scale(1.05);
+}
+
+.card-group{
+	background: #080424;
+	border: solid 10px #080424;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+	opacity: 0.8;
+}
+
+.card-group:hover{
+	transform: scale(1.05);
+}
+
+.Twitter-logo:hover{
+	transform: scale(2.5);
+}
+
+.Instagram-logo:hover{
+	transform: scale(2.5);
+}
+
+.Pinteres-logo:hover{
+	transform: scale(2.5);
+}
+
+#ribbon{
+	background-color: #080424;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, #007cc0 25px, #007cc0 40px)
+}
+
+#ribbon::after{
+	content: '';
+	background-color: transparent;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	left: auto;
+	margin-top: -40px;
+}
+
+#Logo{
+	background-color: #007cc0;
+	position: relative;
+	margin-top: -35px;
+	z-index: 40;
+	box-shadow: 0 0 10px black;
+}
+
+#Logo img{
+	position: relative;
+	margin-top: -60px;
+}
+
+#separator-ribbon{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separator-ribbon .content{
+	width: 150%;
+	height: 150px;
+	margin-left: -25%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#Gotas{
+	background: rgb(255,255,255);
+    background: url(../media/Gotas.png),  linear-gradient(0deg, white 0%, #0c3866 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+.contact-form .form-field{
+	position: relative;
+	margin: 32px 0;
+	background: transparent;
+}
+
+.contact-form .input-text{
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: #fcf75e;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #cacaca;
+	background: transparent;
+}
+
+.contact-form .alert{
+    right: 15px;
+	color: red;
+	position: absolute;
+	top: -30px;
+	font-size: 15px;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+	transform: translateY(-64px);
+	background: transparent;
+}
+
+.contact-form .input-text:focus{
+	outline: none;
+	background: transparent;
+}
+
+.contact-form .label{
+	left: 20px;
+	bottom: 22px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #fcf75e;
+	cursor: text;
+	text-transform: capitalize;
+	transition: transform 0.2s ease-in-out;
+	background: transparent;
+}
+
+.contact-form .submit-btn{
+	display: inline-block;
+	background-image: linear-gradient(125deg, #007cc0, #080424);
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+
